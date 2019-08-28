@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+body{
+    background: black;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position :relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+    0%   {left: 0px; background: red; width: 100px;}
+    5% {left: 200px; background: yellow; width: 100px;}
+    10% {left: 300px; background: blue; width: 100px;}
+    20% {left: 400px; background: blueviolet; width: 100px;}
+    25% {left: 500px; background: burlywood; width: 100px;}
+    30% {left: 600px; background: white; width: 100px;}
+    35% {left: 700px; background: orange; width: 100px;}
+    40% {left: 800px; background: brown; width: 100px;}
+    45% {left: 900px; background: violet; width: 100px;}
+    50% {left: 1000px; background: pink; width: 100px;}
+    55% {left: 1100px; background: aquamarine; width: 100px;}
+    60% {left: 1200px; background: silver; width: 100px;}
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>
